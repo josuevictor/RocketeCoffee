@@ -12,11 +12,11 @@ body {
 }
 
 h1{
-  font-size: 5.2rem;
+  font-size: 5rem;
 }
 
 h2{
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 nav ul li {
@@ -32,27 +32,23 @@ nav ul li {
 .container{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 10vh 60vh 30vh;
-  grid-template-areas: "h h"
-                       "m m"
-                       "f f";
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 header{
   border: solid;
-  grid-area: h;
 }
 
 main {
   text-align: center;
   border: solid ;
-  grid-area: m;
 
 }
 
 footer{
   border: solid ;
-  grid-area: f;
 }
 
 
